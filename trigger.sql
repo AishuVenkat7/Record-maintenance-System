@@ -1,0 +1,29 @@
+set serveroutput on;
+CREATE OR REPLACE TRIGGER contract_trig 
+BEFORE INSERT ON SERVICE_CONTRACT
+FOR EACH ROW
+BEGIN
+SELECT contract_id_seq.NEXTVAL INTO :NEW.contract_id FROM DUAL;
+END;
+/
+CREATE OR REPLACE TRIGGER service_item_trig 
+BEFORE INSERT ON SERVICE_ITEM
+FOR EACH ROW
+BEGIN
+SELECT contract_id_seq.CURRVAL INTO :NEW.contract_id FROM DUAL;
+END;
+/
+CREATE OR REPLACE TRIGGER repair_item_trig 
+BEFORE INSERT ON repair_item
+FOR EACH ROW
+BEGIN
+SELECT rno_seq.NEXTVAL INTO :NEW.rno FROM DUAL;
+END;
+/
+CREATE OR REPLACE TRIGGER repair_charge_trig 
+BEFORE INSERT ON repair_charge_details
+FOR EACH ROW
+BEGIN
+SELECT tracking_num_seq.NEXTVAL INTO :NEW.tracking_number FROM DUAL;
+END;
+/
