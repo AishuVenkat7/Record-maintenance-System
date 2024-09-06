@@ -34,3 +34,8 @@ This project is designed to automate the record-keeping process for MagicWand In
 3. Deploy the front-end interface using HTML and PHP.
 4. Run the provided PL/SQL scripts to create the necessary tables and procedures.
 
+## Screenshots:
+
+<img width="501" alt="Signup" src="https://github.com/user-attachments/assets/6aa8c6c7-166a-4850-a70f-afc28965d28f">
+
+
