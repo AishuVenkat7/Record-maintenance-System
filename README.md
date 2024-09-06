@@ -37,5 +37,11 @@ This project is designed to automate the record-keeping process for MagicWand In
 ## Screenshots:
 
 <img width="501" alt="Signup" src="https://github.com/user-attachments/assets/6aa8c6c7-166a-4850-a70f-afc28965d28f">
+<img width="887" alt="Add Customer Contract-1" src="https://github.com/user-attachments/assets/36037751-5af9-4973-9b7c-971af31011cf">
+<img width="953" alt="Add Customer Contract" src="https://github.com/user-attachments/assets/76904b9c-8e37-482e-9dc8-54ce8c3d1fd0">
+<img width="866" alt="Add:Remove Contract" src="https://github.com/user-attachments/assets/b8851bc2-f24c-4ad2-a0c4-f844b75e01ce">
+<img width="955" alt="Create Repair" src="https://github.com/user-attachments/assets/1faf03c2-e172-4fcf-b19b-26a5aa61ecc0">
+<img width="953" alt="View Contract" src="https://github.com/user-attachments/assets/0fd65041-0e7a-4db9-bef1-6ebe0bdb1d75">
+
 
 
